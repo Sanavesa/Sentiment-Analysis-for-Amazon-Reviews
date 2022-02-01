@@ -12,9 +12,9 @@ As is known, models have difficulty learning meaningful patterns from raw, unpro
   <li>Perform lemmatization</li>
 </ul>
 
-The average character length of the reviews were reduced from 309 to 183 characters.
+The average character length of the reviews were reduced from 309 to 183 characters (down by 40%).
 
-Next, I randomly sampled 100k instances of each class (positive and negative sentiment) to be the final processed dataset. By doing this, the model will be fitted on a high-quality dataset.
+Next, I randomly sampled 100k instances of each class (positive and negative sentiment) to be the final processed dataset. By doing this, the model will be fitted on a high-quality dataset that is well-balanced.
 
 ## Feature Extraction
 So far the reviews are still in their textual format. By utilizing Sklearn, I was able to extract features from the reviews using TF-IDF, which is a value that is intended to reflect how important a word is to a dataset. This step converted each review from its textual format into an array of floats.
