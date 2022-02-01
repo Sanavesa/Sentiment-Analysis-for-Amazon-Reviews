@@ -22,9 +22,9 @@ So far the reviews are still in their textual format. By utilizing Sklearn, I wa
 ## Training
 A total of 4 models were trained using Sklearn: Perceptron, Linear SVM, Logistic Regression, and Multinomial Naive Bayes. The following are the prediction results against the testing set after training the models:
 
-| Model | Accuracy | Precision | Recall | F1 score |
+| Model | Precision | Recall | Accuracy | F1 score |
 | ----- | -------- | --------- | ------ | -------- |
 | Perceptron | 85% | 89% | 85% | 84 |
+| Multinomial Naive Bayes | 87% | 87% | 87% | 87 |
 | Linear SVC | 89% | 90% | 89% | 89 |
 | Logistic Regression | 90% | 90% | 90% |  90 |
-| Multinomial Naive Bayes | 87% | 87% | 87% | 87 |
